@@ -25,7 +25,7 @@ export default function Home() {
         <div className={`text-[16px] font-normal text-black/80 z-10 ${inter.className} mb-4 md:mb-2 mt-4 md:mt-2`}>vivienne kay • senior product designer • 8+ years</div>
         {/* Main description */}
         <div className={`text-2xl md:text-2xl font-semibold max-w-2xl mx-auto z-10 leading-snug ${lora.className} px-4 sm:px-6 md:px-10 lg:px-0 mb-4`}>
-          Product designer born in Hong Kong, raised in New Zealand, based in Florida. Loves green bananas and running with dogs.
+          Product designer born in Hong Kong, raised in New Zealand, based in Florida. Loves rosigold mangoes and running with rescue dogs.
         </div>
         {/* Social Buttons */}
         <div className="flex gap-8 justify-center items-center z-10 mb-4">
@@ -61,87 +61,105 @@ export default function Home() {
         </div>
         <div className="px-4 md:px-10 max-w-screen-lg mx-auto w-full">
           <div className="w-full mb-6">
-            <Card>
-              <div className="relative">
-                <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
-                <div className="flex flex-col px-6 pt-4 pb-0">
+            <Card className="relative pb-0 h-full min-h-0">
+              {/* Floating NAV logo */}
+              <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-4 z-10" />
+              <div className="flex flex-col gap-0 px-0 py-0 h-full min-h-0 items-stretch md:grid md:grid-cols-2 md:gap-0">
+                {/* Left: Text */}
+                <div className="flex-1 flex flex-col justify-center px-6 pt-4 pb-10">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>NAV</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Credit health</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A reimagined experience made to give business owners a leg up</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-[16px]`}>Rebooted the core credit experience with upgraded visuals, reorganized content, unmatched data points and AI-powered insights designed to get business owners ahead on the path to funding.</div>
+                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Rebooted the core credit experience with upgraded visuals, reorganized content, unmatched data points and AI-powered insights designed to get business owners ahead on the path to funding.</div>
+                  <div className={`flex flex-wrap gap-[8.395px] mt-6`}>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Core workflows</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>AI integrations</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>UX research</span>
+                  </div>
                 </div>
-              </div>
-              <div className={`flex flex-wrap gap-[8.395px] px-6 pb-4`}>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Core workflows</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>AI integrations</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design & research leadership</span>
+                {/* Right: Image */}
+                <div className="flex-1 flex flex-col justify-end items-center p-0 h-full min-h-0 md:p-0 md:h-full">
+                  <img src="/credit2.png" alt="Credit Health screenshot" className="w-full h-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+                </div>
               </div>
             </Card>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card>
+            <Card className="flex flex-col h-full pt-6 px-6 pb-0">
               <div className="relative">
                 <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
-                <div className="flex flex-col px-6 pt-4 pb-0">
+                <div className="flex flex-col px-2 pt-2 pb-2">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>NAV</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Onboarding</div>
-                  <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A better first impression, with clear next steps and a reason to stay.</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-[16px]`}>Lead design for a multi-phase project including optimized sign-up flows, personalized setup guides, and a new cancellation flow that reduced voluntary churn by 17%.</div>
+                  <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A better first impression, with clear next steps and a reason to stay</div>
+                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Lead design for a multi-phase project including optimized sign-up flows, personalized setup guides, and a new cancellation flow that reduced voluntary churn by 17%.</div>
+                </div>
+                <div className="px-2">
+                  <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Product adoption</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Content strategy</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Collaboration</span>
+                  </div>
                 </div>
               </div>
-              <div className={`flex flex-wrap gap-[8.395px] px-6 pb-4`}>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Product activation</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Content design strategy</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
-              </div>
+              <img src="/onboarding1.png" alt="Onboarding screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
-            <Card>
+            <Card className="flex flex-col h-full pt-6 px-6 pb-0">
               <div className="relative">
                 <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
-                <div className="flex flex-col px-6 pt-4 pb-0">
+                <div className="flex flex-col px-2 pt-2 pb-2">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>NAV</span>
-                  <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Purchasing paths</div>
-                  <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Upgraded options worth sticking with.</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-[16px]`}>Collaborated across disciplines to define new pricing plans and a system for upgrading—spiking conversions and delivering our highest customer lifetime value (CLTV) on record.</div>
+                  <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Upgrade paths</div>
+                  <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Premium options worth sticking with</div>
+                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Collaborated across disciplines to define new pricing plans and a system for upgrading—spiking conversions and delivering our highest customer lifetime value (CLTV) on record.</div>
+                </div>
+                <div className="px-2">
+                  <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design systems</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
+                  </div>
                 </div>
               </div>
-              <div className={`flex flex-wrap gap-[8.395px] px-6 pb-4`}>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design systems</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
-              </div>
+              <img src="/pricing4.png" alt="Upgrade paths screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
-            <Card>
+            <Card className="flex flex-col h-full pt-6 px-6 pb-6">
               <div className="relative">
                 <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
-                <div className="flex flex-col px-6 pt-4 pb-0">
+                <div className="flex flex-col px-2 pt-2 pb-2">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>SHOPIFY</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Product bundles</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Crafting the future of fulfillment on-demand</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-[16px]`}>Crafted flexible bundling workflows across Fulfillment, Core, and warehouse systems—so merchants could mix, match, and sell in bulk without losing track of inventory across locations.</div>
+                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Crafted flexible bundling workflows across Fulfillment, Core, and warehouse systems—so merchants could mix, match, and sell in bulk without losing track of inventory across locations.</div>
+                  <div className="px-2">
+                    <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Service design</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>API integrations</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className={`flex flex-wrap gap-[8.395px] px-6 pb-4`}>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Service design</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>API integrations</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
-              </div>
+              <img src="/bundles.png" alt="Product bundles screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
-            <Card>
+            <Card className="flex flex-col h-full pt-6 px-6 pb-6">
               <div className="relative">
                 <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
-                <div className="flex flex-col px-6 pt-4 pb-0">
+                <div className="flex flex-col px-2 pt-2 pb-2">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>SHOPIFY</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Inventory locations</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Product logistics made manageable from your kitchen table</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-[16px]`}>Defined the foundational workflows that let merchants stock, track, and fulfill products across locations—from pop-up stalls and storefronts to cross-continental warehouses.</div>
+                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Defined the foundational workflows that let merchants stock, track, and fulfill products across locations—from pop-up stalls and storefronts to cross-continental warehouses.</div>
+                  <div className="px-2">
+                    <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Complex systems</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>UX research</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Systems design</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className={`flex flex-wrap gap-[8.395px] px-6 pb-4`}>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Complex systems</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>UX research</span>
-                <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Systems design</span>
-              </div>
+              <img src="/locations.png" alt="Inventory locations screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
           </div>
         </div>
@@ -186,8 +204,8 @@ export default function Home() {
         <div className="text-center text-[16px] text-[#444] max-w-md mx-auto mb-3 mt-0 font-normal">
           While we're waiting to connect, here's some writing I've done on <span className="font-medium">Medium</span> about UX and design.
         </div>
-        <div className="w-full max-w-md mx-auto bg-[#F5F5F7] rounded-md p-8">
-          <div className="flex flex-col gap-3 items-start text-left">
+        <div className="w-full max-w-md mx-auto bg-[#F5F5F7] rounded-md p-8 mt-8">
+          <div className="flex flex-col gap-5 items-start text-left">
             <div className="flex items-center gap-3 justify-center">
               <a href="https://medium.com/user-experience-design-1/overcoming-not-imposter-syndrome-6d92c71c1751" target="_blank" rel="noopener noreferrer" className="underline text-[16px] text-[#080726] hover:text-[#7C7B86]">Overcoming not-imposter syndrome</a>
               <span className="inline-block bg-[#080726] text-white text-xs font-medium rounded px-2 py-1 ml-2">Most read</span>
