@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Card } from "@/components/ui/card"
 import { Inter } from "next/font/google"
 import { Lora } from "next/font/google"
 
@@ -171,7 +169,7 @@ export default function Home() {
           <h2 className={`text-[16px] font-normal text-center text-black/80 border-t border-[#D9D9D9] py-8 mb-0 ${inter.className}`}>Contact</h2>
         </div>
         <div className={`text-2xl md:text-2xl font-semibold max-w-2xl mx-auto z-10 leading-snug ${lora.className} px-4 sm:px-6 md:px-10 lg:px-0 mb-12 mt-2`}>
-          Ready for case studies that pack a punch and prototypes with pizzazz? Let's chat.
+          Ready for case studies that pack a punch and prototypes with pizzazz? Let&apos;s chat.
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch w-full max-w-xs md:max-w-2xl mx-auto">
           <a
@@ -202,7 +200,7 @@ export default function Home() {
       {/* Stories Section */}
       <section className="w-full flex flex-col items-center justify-center mt-6 mb-24">
         <div className="text-center text-[16px] text-[#444] max-w-md mx-auto mb-3 mt-0 font-normal">
-          While we're waiting to connect, here's some writing I've done on <span className="font-medium">Medium</span> about UX and design.
+          While we&apos;re waiting to connect, here&apos;s some writing I&apos;ve done on <span className="font-medium">Medium</span> about UX and design.
         </div>
         <div className="w-full max-w-md mx-auto bg-[#F5F5F7] rounded-md p-8 mt-8">
           <div className="flex flex-col gap-5 items-start text-left">
