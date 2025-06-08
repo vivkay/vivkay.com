@@ -8,7 +8,14 @@ export const metadata: Metadata = {
   title: "Vivienne Kay | Senior Product Designer",
   description: "Product designer born in Hong Kong, raised in New Zealand, based in Florida. Loves blueberry smoothies and running with rescue dogs.",
   icons: {
-    icon: '/favicon.png',
+    icon: [
+      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    shortcut: '/favicon.png',
   },
 };
 
