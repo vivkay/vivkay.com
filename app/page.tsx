@@ -66,7 +66,7 @@ export default function Home() {
               <div className="flex flex-col gap-0 px-0 py-0 h-full min-h-0 items-stretch md:grid md:grid-cols-2 md:gap-0">
                 {/* Left: Text */}
                 <div className="flex-1 flex flex-col justify-center px-6 pt-4 pb-10">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>NAV</span>
+                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Core experience</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Credit health</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A reimagined experience made to give business owners a leg up</div>
                   <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Rebooted the core credit experience with upgraded visuals, reorganized content, unmatched data points and AI-powered insights designed to get business owners ahead on the path to funding.</div>
@@ -88,8 +88,8 @@ export default function Home() {
               <div className="relative">
                 <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
                 <div className="flex flex-col px-2 pt-2 pb-2">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>NAV</span>
-                  <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Onboarding</div>
+                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
+                  <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Onboarding flows</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A better first impression, with clear next steps and a reason to stay</div>
                   <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Lead design for a multi-phase project including optimized sign-up flows, personalized setup guides, and a new cancellation flow that reduced voluntary churn by 17%.</div>
                 </div>
@@ -107,7 +107,7 @@ export default function Home() {
               <div className="relative">
                 <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
                 <div className="flex flex-col px-2 pt-2 pb-2">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>NAV</span>
+                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Upgrade paths</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Premium options worth sticking with</div>
                   <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Collaborated across disciplines to define new pricing plans and a system for upgrading—spiking conversions and delivering our highest customer lifetime value (CLTV) on record.</div>
@@ -126,7 +126,7 @@ export default function Home() {
               <div className="relative">
                 <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
                 <div className="flex flex-col px-2 pt-2 pb-2">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>SHOPIFY</span>
+                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Shopify • Core</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Product bundles</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Crafting the future of fulfillment on-demand</div>
                   <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Crafted flexible bundling workflows across Fulfillment, Core, and warehouse systems—so merchants could mix, match, and sell in bulk without losing track of inventory across locations.</div>
@@ -145,7 +145,7 @@ export default function Home() {
               <div className="relative">
                 <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
                 <div className="flex flex-col px-2 pt-2 pb-2">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>SHOPIFY</span>
+                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Shopify • Core</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Inventory locations</div>
                   <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Product logistics made manageable from your kitchen table</div>
                   <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Defined the foundational workflows that let merchants stock, track, and fulfill products across locations—from pop-up stalls and storefronts to cross-continental warehouses.</div>
