@@ -12,11 +12,11 @@ export default function Home() {
       <section className="w-full pt-8 pb-4 md:pt-12 md:pb-8 flex flex-col items-center text-center gap-1 md:gap-6 relative overflow-visible min-h-0 md:min-h-[600px]">
         {/* Image and 'viv' text in a relative container */}
         <div className="relative flex flex-col items-center justify-end mx-auto overflow-visible pt-0 md:pt-8" style={{height: 'min-content'}}>
-          <span className={`pointer-events-none text-[20.7rem] md:text-[25.3rem] text-yellow-400 opacity-90 select-none leading-none absolute left-1/2 bottom-0 -translate-x-1/2 z-0 ${inter.className} font-medium`} style={{letterSpacing: '0.04em', textShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>viv</span>
+          <span className={`pointer-events-none text-[16rem] md:text-[25.3rem] text-yellow-400 opacity-90 select-none leading-none absolute left-1/2 bottom-0 -translate-x-1/2 z-0 ${inter.className} font-medium px-4`} style={{letterSpacing: '0.02em', textShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>viv</span>
           <img 
             src="/viv.png" 
             alt="Viv Kay" 
-            className="w-[23rem] h-[23rem] md:w-[25.3rem] md:h-[25.3rem] object-contain mx-auto relative z-10" 
+            className="w-[20.7rem] h-[20.7rem] md:w-[22.8rem] md:h-[22.8rem] object-contain mx-auto relative z-10" 
             style={{marginBottom: '-2rem'}}
           />
         </div>
