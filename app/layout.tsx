@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata: Metadata = {
-  title: "Your Portfolio",
-  description: "A modern portfolio website built with Next.js and shadcn/ui",
+  title: "Vivienne Kay | Senior Product Designer",
+  description: "Product designer born in Hong Kong, raised in New Zealand, based in Florida. Loves blueberry smoothies and running with rescue dogs.",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
