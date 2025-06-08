@@ -9,21 +9,22 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background px-4 md:px-10 max-w-screen-lg mx-auto">
       {/* Hero Section */}
-      <section className="w-full pt-16 pb-4 md:pt-20 md:pb-8 flex flex-col items-center text-center gap-1 md:gap-6 relative overflow-visible min-h-0 md:min-h-[600px]">
+      <section className="w-full pt-8 pb-4 md:pt-12 md:pb-8 flex flex-col items-center text-center gap-1 md:gap-6 relative overflow-visible min-h-0 md:min-h-[600px]">
         {/* Image and 'viv' text in a relative container */}
-        <div className="relative flex flex-col items-center justify-end mx-auto overflow-visible pt-0 md:pt-16" style={{height: 'min-content'}}>
-          <span className={`pointer-events-none text-[18rem] md:text-[22rem] text-yellow-400 opacity-90 select-none leading-none absolute left-1/2 bottom-0 -translate-x-1/2 z-0 ${inter.className} font-medium`} style={{letterSpacing: '0.04em', textShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>viv</span>
+        <div className="relative flex flex-col items-center justify-end mx-auto overflow-visible pt-0 md:pt-8" style={{height: 'min-content'}}>
+          <span className={`pointer-events-none text-[20.7rem] md:text-[25.3rem] text-yellow-400 opacity-90 select-none leading-none absolute left-1/2 bottom-0 -translate-x-1/2 z-0 ${inter.className} font-medium`} style={{letterSpacing: '0.04em', textShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>viv</span>
           <img 
             src="/viv.png" 
             alt="Viv Kay" 
-            className="w-56 h-56 object-contain mx-auto relative z-10" 
+            className="w-[23rem] h-[23rem] md:w-[25.3rem] md:h-[25.3rem] object-contain mx-auto relative z-10" 
+            style={{marginBottom: '-2rem'}}
           />
         </div>
         {/* Subtitle */}
         <div className={`text-[16px] font-normal text-black/80 z-10 ${inter.className} mb-4 md:mb-2 mt-4 md:mt-2`}>vivienne kay • senior product designer • 8+ years</div>
         {/* Main description */}
         <div className={`text-2xl md:text-2xl font-semibold max-w-2xl mx-auto z-10 leading-snug ${lora.className} px-4 sm:px-6 md:px-10 lg:px-0 mb-4`}>
-          Product designer born in Hong Kong, raised in New Zealand, based in Florida. Loves rosigold mangoes and running with rescue dogs.
+          Product designer born in Hong Kong, raised in New Zealand, based in Florida. Loves blueberry smoothies and running with rescue dogs.
         </div>
         {/* Social Buttons */}
         <div className="flex gap-8 justify-center items-center z-10 mb-4">
