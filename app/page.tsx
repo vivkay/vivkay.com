@@ -167,10 +167,10 @@ export default function Home() {
       {/* Contact Section */}
       <section className="w-full pb-8 text-center">
         <div className="px-6 md:px-10">
-          <h2 className={`text-[16px] font-normal text-center text-black/80 border-t border-[#D9D9D9] py-8 mb-0 ${inter.className}`}>Contact</h2>
+          <div className="border-t border-[#D9D9D9] py-8"></div>
         </div>
         <div className={`text-2xl md:text-2xl font-semibold max-w-2xl mx-auto z-10 leading-snug ${lora.className} px-4 sm:px-6 md:px-10 lg:px-0 mb-12 mt-2`}>
-          Ready for case studies that pack a punch and prototypes with pizzazz? Let&apos;s chat.
+          Let's chat!
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch w-full max-w-xs md:max-w-2xl mx-auto">
           <a
