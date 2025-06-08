@@ -14,8 +14,8 @@ export default function Home() {
         <div className="relative flex flex-col items-center justify-end mx-auto overflow-visible pt-0 md:pt-16" style={{height: 'min-content'}}>
           <span className={`pointer-events-none text-[18rem] md:text-[22rem] text-yellow-400 opacity-90 select-none leading-none absolute left-1/2 bottom-0 -translate-x-1/2 z-0 ${inter.className} font-medium`} style={{letterSpacing: '0.04em', textShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>viv</span>
           <img 
-            src="/vivtemp.png" 
-            alt="Viv Kay placeholder" 
+            src="/viv.png" 
+            alt="Viv Kay" 
             className="w-56 h-56 object-contain mx-auto relative z-10" 
           />
         </div>
