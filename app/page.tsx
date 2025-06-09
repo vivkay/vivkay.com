@@ -60,6 +60,48 @@ export default function Home() {
         </div>
         <div className="px-4 md:px-10 max-w-screen-lg mx-auto w-full">
           <div className="w-full mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Card className="flex flex-col h-full pt-6 px-6 pb-0">
+                <div className="relative">
+                  <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
+                  <div className="flex flex-col px-2 pt-2 pb-2">
+                    <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
+                    <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Onboarding flows</div>
+                    <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A better first impression, with clear next steps and a reason to stay</div>
+                    <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Lead design for a multi-phase project including optimized sign-up flows, personalized setup guides, and a new cancellation flow that reduced voluntary churn by 17%.</div>
+                  </div>
+                  <div className="px-2">
+                    <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Content strategy</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Collaboration</span>
+                    </div>
+                  </div>
+                </div>
+                <img src="/onboarding.png" alt="Onboarding screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+              </Card>
+              <Card className="flex flex-col h-full pt-6 px-6 pb-0">
+                <div className="relative">
+                  <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
+                  <div className="flex flex-col px-2 pt-2 pb-2">
+                    <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
+                    <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Subscription strategy</div>
+                    <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Premium options worth sticking with</div>
+                    <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Collaborated across disciplines to define new pricing plans and a system for upgrading—spiking conversions and delivering our highest customer lifetime value (CLTV) on record.</div>
+                  </div>
+                  <div className="px-2">
+                    <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design systems</span>
+                      <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
+                    </div>
+                  </div>
+                </div>
+                <img src="/pricing4.png" alt="Upgrade paths screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+              </Card>
+            </div>
+          </div>
+          <div className="w-full mb-6">
             <Card className="relative pb-0 h-full min-h-0">
               {/* Floating NAV logo */}
               <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-4 z-10" />
@@ -84,44 +126,6 @@ export default function Home() {
             </Card>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="flex flex-col h-full pt-6 px-6 pb-0">
-              <div className="relative">
-                <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
-                <div className="flex flex-col px-2 pt-2 pb-2">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
-                  <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Onboarding flows</div>
-                  <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>A better first impression, with clear next steps and a reason to stay</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Lead design for a multi-phase project including optimized sign-up flows, personalized setup guides, and a new cancellation flow that reduced voluntary churn by 17%.</div>
-                </div>
-                <div className="px-2">
-                  <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Content strategy</span>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Collaboration</span>
-                  </div>
-                </div>
-              </div>
-              <img src="/onboarding.png" alt="Onboarding screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
-            </Card>
-            <Card className="flex flex-col h-full pt-6 px-6 pb-0">
-              <div className="relative">
-                <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
-                <div className="flex flex-col px-2 pt-2 pb-2">
-                  <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
-                  <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Upgrade paths</div>
-                  <div className={`text-[16px] font-normal text-black/80 ${inter.className} mb-[4px]`}>Premium options worth sticking with</div>
-                  <div className={`text-[14px] font-normal text-black/80 ${inter.className} mt-4`}>Collaborated across disciplines to define new pricing plans and a system for upgrading—spiking conversions and delivering our highest customer lifetime value (CLTV) on record.</div>
-                </div>
-                <div className="px-2">
-                  <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design systems</span>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Design leadership</span>
-                  </div>
-                </div>
-              </div>
-              <img src="/pricing4.png" alt="Upgrade paths screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
-            </Card>
             <Card className="flex flex-col h-full pt-6 px-6 pb-6">
               <div className="relative">
                 <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
