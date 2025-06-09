@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Inter } from "next/font/google"
 import { Lora } from "next/font/google"
+import Image from "next/image"
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "700"] })
 const lora = Lora({ subsets: ["latin"], weight: ["600"] })
@@ -13,9 +14,11 @@ export default function Home() {
         {/* Image and 'viv' text in a relative container */}
         <div className="relative flex flex-col items-center justify-end mx-auto overflow-visible pt-0 md:pt-8" style={{height: 'min-content'}}>
           <span className={`pointer-events-none text-[16rem] md:text-[25.3rem] text-yellow-400 opacity-90 select-none leading-none absolute left-1/2 bottom-0 -translate-x-1/2 z-0 ${inter.className} font-medium px-4`} style={{letterSpacing: '0.02em', textShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>viv</span>
-          <img 
+          <Image 
             src="/viv.png" 
             alt="Viv Kay" 
+            width={228}
+            height={228}
             className="w-[20.7rem] h-[20.7rem] md:w-[22.8rem] md:h-[22.8rem] object-contain mx-auto relative z-10" 
             style={{marginBottom: '-2rem'}}
           />
@@ -63,7 +66,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="flex flex-col h-full pt-6 px-6 pb-0">
                 <div className="relative">
-                  <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
+                  <Image src="/logo_nav.svg" alt="logo" width={28} height={28} className="w-7 h-7 absolute top-4 right-6" />
                   <div className="flex flex-col px-2 pt-2 pb-2">
                     <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
                     <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Onboarding flows</div>
@@ -78,11 +81,11 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <img src="/onboarding.png" alt="Onboarding screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+                <Image src="/onboarding.png" alt="Onboarding screenshot" width={800} height={400} className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
               </Card>
               <Card className="flex flex-col h-full pt-6 px-6 pb-0">
                 <div className="relative">
-                  <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-6" />
+                  <Image src="/logo_nav.svg" alt="logo" width={28} height={28} className="w-7 h-7 absolute top-4 right-6" />
                   <div className="flex flex-col px-2 pt-2 pb-2">
                     <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Nav • Growth design</span>
                     <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Subscription strategy</div>
@@ -97,14 +100,14 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <img src="/pricing4.png" alt="Upgrade paths screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+                <Image src="/pricing4.png" alt="Upgrade paths screenshot" width={800} height={400} className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
               </Card>
             </div>
           </div>
           <div className="w-full mb-6">
             <Card className="relative pb-0 h-full min-h-0">
               {/* Floating NAV logo */}
-              <img src="/logo_nav.svg" alt="logo" className="w-7 h-7 absolute top-4 right-4 z-10" />
+              <Image src="/logo_nav.svg" alt="logo" width={28} height={28} className="w-7 h-7 absolute top-4 right-4 z-10" />
               <div className="flex flex-col gap-0 px-0 py-0 h-full min-h-0 items-stretch md:grid md:grid-cols-2 md:gap-0">
                 {/* Left: Text */}
                 <div className="flex-1 flex flex-col justify-center px-6 pt-4 pb-10">
@@ -120,7 +123,7 @@ export default function Home() {
                 </div>
                 {/* Right: Image */}
                 <div className="flex-1 flex flex-col justify-end items-center p-0 h-full min-h-0 md:p-0 md:h-full">
-                  <img src="/credit2.png" alt="Credit Health screenshot" className="w-full h-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+                  <Image src="/credit2.png" alt="Credit Health screenshot" width={800} height={400} className="w-full h-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
                 </div>
               </div>
             </Card>
@@ -128,7 +131,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card className="flex flex-col h-full pt-6 px-6 pb-6">
               <div className="relative">
-                <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
+                <Image src="/logo_shopify.svg" alt="Shopify logo" width={36} height={36} className="w-9 h-9 absolute top-4 right-6" />
                 <div className="flex flex-col px-2 pt-2 pb-2">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Shopify • Core</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Product bundles</div>
@@ -143,11 +146,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <img src="/bundles.png" alt="Product bundles screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+              <Image src="/bundles.png" alt="Product bundles screenshot" width={800} height={400} className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
             <Card className="flex flex-col h-full pt-6 px-6 pb-6">
               <div className="relative">
-                <img src="/logo_shopify.svg" alt="Shopify logo" className="w-9 h-9 absolute top-4 right-6" />
+                <Image src="/logo_shopify.svg" alt="Shopify logo" width={36} height={36} className="w-9 h-9 absolute top-4 right-6" />
                 <div className="flex flex-col px-2 pt-2 pb-2">
                   <span className={`font-light text-[12px] uppercase text-black/80 ${inter.className} mb-[4px]`}>Shopify • Core</span>
                   <div className={`text-[22px] font-bold ${lora.className} mb-[4px]`}>Inventory locations</div>
@@ -162,7 +165,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <img src="/locations.png" alt="Inventory locations screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+              <Image src="/locations.png" alt="Inventory locations screenshot" width={800} height={400} className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
           </div>
         </div>
@@ -174,7 +177,7 @@ export default function Home() {
           <div className="border-t border-[#D9D9D9] py-8"></div>
         </div>
         <div className={`text-2xl md:text-2xl font-semibold max-w-2xl mx-auto z-10 leading-snug ${lora.className} px-4 sm:px-6 md:px-10 lg:px-0 mb-12 mt-2`}>
-          Let's chat!
+          Let&apos;s chat!
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch w-full max-w-xs md:max-w-2xl mx-auto">
           <a
