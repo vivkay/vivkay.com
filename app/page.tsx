@@ -101,7 +101,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <img src="/onboarding1.png" alt="Onboarding screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
+              <img src="/onboarding.png" alt="Onboarding screenshot" className="mt-auto w-full object-cover rounded-b-[8px] m-0 p-0" style={{display:'block'}} />
             </Card>
             <Card className="flex flex-col h-full pt-6 px-6 pb-0">
               <div className="relative">
