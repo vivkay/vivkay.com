@@ -95,7 +95,7 @@ export default function Home() {
                 </div>
                 <div className="px-2">
                   <div className={`flex flex-wrap gap-[8.395px] mt-4`}>
-                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Product adoption</span>
+                    <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Growth design</span>
                     <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Content strategy</span>
                     <span className={`badge-border-shimmer inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded bg-[#FCFCFC] text-[#333333] border border-[#D9D9D9] border-[1px] ${inter.className}`}>Collaboration</span>
                   </div>
